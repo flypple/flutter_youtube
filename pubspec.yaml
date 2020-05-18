@@ -1,0 +1,121 @@
+name: flutter_youtube
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  provider: ^3.1.0
+  cached_network_image: ^1.1.1
+  shared_preferences: ^0.4.2
+  json_annotation: ^2.0.0
+  flustars: ^0.2.6+1
+  video_player: ^0.10.0+2
+  chewie: ^0.9.10
+  flutter_statusbarcolor: ^0.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # 运行"flutter packages pub run build_runner build"，生成.g辅助文件。
+  # 运行"flutter packages pub run build_runner watch"，可以实现文件监听，自动地为你后续创建的实体类生成对应的解析代码。
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/youtube.png
+    - assets/images/youtube_error.png
+    - assets/images/youtube_subbg.png
+    - assets/images/youtube_hot.jpg
+    - assets/images/youtube_music.jpg
+    - assets/images/youtube_sport.jpg
+    - assets/images/youtube_game.jpg
+    - assets/images/youtube_movie.jpg
+    - assets/images/youtube_news.jpg
+    - assets/images/youtube_live.jpg
+    - assets/images/youtube_youtube.jpg
+    - assets/images/youtube_v.jpg
+    - assets/images/youtube_notification.png
+    - assets/images/youtube_like.png
+    - assets/images/youtube_unlike.png
+    - assets/images/youtube_share.png
+    - assets/images/youtube_download.png
+    - assets/images/youtube_save.png
+    - assets/images/youtube_tag.png
+    - assets/images/youtube_time.png
+    - assets/images/youtube_avatar.png
+    - assets/images/youtube_your_channel.png
+    - assets/images/youtube_work_space.png
+    - assets/images/youtube_watch_time.png
+    - assets/images/youtube_tv.png
+    - assets/images/youtube_gray_logo.png
+    - assets/images/youtube_pay.png
+    - assets/images/youtube_switch_user.png
+    - assets/images/youtube_traceless.png
+    - assets/images/youtube_your_data.png
+    - assets/images/youtube_settings.png
+    - assets/images/youtube_question.png
+    - assets/images/youtube_share_2.png
+    - assets/images/youtube_upload_bg.png
+
+    - assets/json/youtube.json
+    - assets/json/youtube2.json
+    - assets/json/youtube3.json
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
